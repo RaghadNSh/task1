@@ -1,0 +1,40 @@
+body {
+  
+  background:#d1b36e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display:flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+.container > form {
+  width: 60%;
+  border:1px solid #dfdfdf;
+  padding:30px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+
+button {
+  padding: 10px;
+  background: #d1b36e !important;
+  border: none;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+p {
+  color:red
+}
+.field{
+  font-size: 15px;
+  padding: 10px;
+
+}
